@@ -38,8 +38,6 @@ void pattern12(int n){
         //space
         for (int j=1;j<=space; j++){
             cout<<"_";
-            // space = space - 2;
-
         }
         //nos
         for(int j=i; j>=1; j--){
