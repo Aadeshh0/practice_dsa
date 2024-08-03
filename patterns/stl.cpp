@@ -25,7 +25,13 @@ void vectors(){
     // vectors arre dynamic in nature in terms of size
     // used for questions or prob where we are uncertain about the data size
 
-    
+    // Syntax:
+    // vector<object_type> variable_name;
+    // Example:
+
+    vector<int> v1;
+    vector<char> v2;
+    vector<string> v3;
 
 }
 
