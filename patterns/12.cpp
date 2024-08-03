@@ -47,10 +47,12 @@ void pattern12(int n){
         space = space - 2;
         //need to reduce the space value outside of nested for loop 
         // for next line otherwise same loop iteration will happen
+        // 
     }
 }
 
 void print13(int n){
+    int count;
     for( int i=1; i<=n; i++){
         count = 1;
         for(int j=1; j<n; j++){
