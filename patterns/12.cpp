@@ -49,9 +49,20 @@ void pattern12(int n){
         // for next line otherwise same loop iteration will happen
     }
 }
+
+void print13(int n){
+    for( int i=1; i<=n; i++){
+        count = 1;
+        for(int j=1; j<n; j++){
+            cout << count << " " ;
+            count++;
+        }
+        cout << endl;
+    }
+}
 int main(){
     int ip;
     cin >> ip;
-    pattern12(ip);
+    print13(ip);
     return 0;
 }
